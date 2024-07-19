@@ -15,7 +15,7 @@ jobs:
         include:
           - python-version: "3.12"
             allow_failure: true
-            runs-on: ${{ matrix.runs-on }}
+            runs-on: ${{ runs-on }}
     steps:
       - uses: actions/checkout@v3
 
